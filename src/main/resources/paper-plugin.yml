@@ -1,0 +1,10 @@
+name: Curios API
+version: '1.0.0-SNAPSHOT'
+main: io.github.liangcha385.curiosapi.CuriosAPI
+api-version: '1.21'
+authors: [ liangcha385 ]
+dependencies:
+  server:
+    PlaceholderAPI:
+      load: BEFORE
+      required: false
