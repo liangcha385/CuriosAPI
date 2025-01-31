@@ -20,6 +20,9 @@ jobs:
           github-token: "${{ secrets.GITHUB_TOKEN }}"
           cache: gradle
 
+      - name: Build with Gradle
+        run: ./gradlew build
+
       - name: Artifact Curios API
         uses: actions/upload-artifact@main
         with:
